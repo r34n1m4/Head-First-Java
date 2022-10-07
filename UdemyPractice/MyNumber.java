@@ -6,7 +6,6 @@ public class MyNumber {
 
     public MyNumber(int number) {
         this.number = number;
-        this.sumOfNumbers = sumOfNumbers;
     }
 
     public boolean isPrime() {
