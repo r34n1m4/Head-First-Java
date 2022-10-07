@@ -15,5 +15,10 @@ public class MyNumberRunner {
         System.out.println("Sum of numbers: " + number.sumUptoN());
         System.out.println("Sum of divisors: " + number.sumOfDivisors());
         number.numberTriangle();
+        System.out.println("Squares to limit:");
+        number.squaresOfNumber();
+        System.out.println();
+        System.out.println("Cubes to limit:");
+        number.cubesOfNumber();
     }
 }
