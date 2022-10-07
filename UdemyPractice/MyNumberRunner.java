@@ -20,5 +20,7 @@ public class MyNumberRunner {
         System.out.println();
         System.out.println("Cubes to limit:");
         number.cubesOfNumber();
+        System.out.println();
+        number.userCubes();
     }
 }
