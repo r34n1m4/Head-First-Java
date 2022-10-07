@@ -63,4 +63,18 @@ public class MyNumber {
             i++;
         }
     }
+    public void userCubes() {
+        Scanner scn = new Scanner(System.in);
+        int num;
+        int cube = 0;
+
+        do {
+            System.out.println("Cube is: " + cube);
+            System.out.print("Please enter a number:");
+            num = scn.nextInt();
+            cube = num * num * num;
+
+        } while (num >= 0);
+        System.out.println("GG bye");
+    }
 }
