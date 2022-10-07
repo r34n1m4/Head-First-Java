@@ -47,4 +47,20 @@ public class MyNumber {
             System.out.println();
         }
     }
+    
+    public void squaresOfNumber() {
+        int i = 1;
+        while (i * i < number) {
+            System.out.print(i * i + " ");
+            i++;
+        }
+    }
+
+    public void cubesOfNumber() {
+        int i = 1;
+        while (i * i * i < number) {
+            System.out.print(i * i * i + " ");
+            i++;
+        }
+    }
 }
