@@ -1,6 +1,7 @@
 package com.reanima;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 
 public class StudentRunner {
     public static void main(String[] args) {
@@ -18,5 +19,13 @@ public class StudentRunner {
         System.out.println("Minimum mark is: " + min);
         BigDecimal avg = student.getAverageMarks();
         System.out.println("Average mark is: " + avg);
+
+        System.out.println(student);
+
+        student.addNewMark(35);
+        System.out.println(student);
+
+        student.removeMarkAtIndex(3);
+        System.out.println(student);
     }
 }
